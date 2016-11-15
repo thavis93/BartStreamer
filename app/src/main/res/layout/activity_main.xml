@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="pl.edu.agh.student.pasek.bartstreamer.app.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="7"
+        android:layout_centerVertical="true"
+        android:id="@+id/ip_address"
+        android:layout_alignStart="@+id/port"
+        android:layout_alignEnd="@+id/port" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress|number"
+        android:ems="10"
+        android:layout_below="@+id/ip_address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:id="@+id/port" />
+
+    <TextView
+        android:text="port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/pp"
+        android:layout_below="@+id/ip_address"
+        android:layout_alignStart="@+id/port" />
+
+    <TextView
+        android:text="ip adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ip_input"
+        android:layout_above="@+id/ip_address"
+        android:layout_alignStart="@+id/ip_address"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "222781398709",
+    "firebase_url": "https://bartvideostreamnotification.firebaseio.com",
+    "project_id": "bartvideostreamnotification",
+    "storage_bucket": "bartvideostreamnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222781398709:android:a799a9148afbd3c9",
+        "android_client_info": {
+          "package_name": "pl.edu.agh.student.pasek.bartstreamer.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222781398709-5r415auh3mlesqmcts7mlucjesu3q8vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChr9BHrB4mhKmZcZA5myc9WTd6f2wqaGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
